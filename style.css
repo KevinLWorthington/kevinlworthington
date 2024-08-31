@@ -1,0 +1,78 @@
+
+
+h1 {
+font-family: "New Amsterdam", sans-serif;
+font-size: 50px;
+-webkit-text-fill-color: #5cb5b5;
+-webkit-text-stroke: 1px;
+text-align: left;
+width: 100%;
+margin: auto;
+padding: auto;
+text-shadow: 1px 1px 2px white, 0 0 1em #5cb5b5, 0 0 0.2em #5cb5b5;
+}
+
+p {
+	font-family: "New Amsterdam", sans-serif;
+	font-size: 70px;
+	-webkit-text-fill-color: #5cb5b5;
+	-webkit-text-stroke: 1px;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 5px;
+	text-shadow: 1px 1px 2px white, 0 0 1em #5cb5b5, 0 0 0.2em #5cb5b5;
+}
+
+body {
+	background-color: #2596be;
+	background-image: url("images/bg.JPEG");
+	background-size: cover;
+}
+
+.button {
+	font-family: "New Amsterdam", sans-serif;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 15px 5px;
+	padding: auto;
+	width: 200px;
+	background-color: #5cb5b5;
+	border-color: #5cb5b5;
+	box-shadow: 1px 1px 15px 5px black;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+.codeButton {
+	font-family: "New Amsterdam", sans-serif;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 15px 5px;
+	padding: auto;
+	width: 200px;
+	background-color: #5cb5b5;
+	border-color: #5cb5b5;
+	box-shadow: 1px 1px 15px 5px black;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+button:hover {
+	color: white;
+	width: 233px;
+	box-shadow: 1px 1px 15px 5px #494a4a;
+	font-size: 35px;
+}
+
+button:visited {
+	color: aqua;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	color: white;
+}

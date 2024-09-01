@@ -3,7 +3,6 @@ html, body {
 }
 
 body {
-	z-index: -1;
 	display: flex;
 	flex-direction: column;
 	background-color: #2596be;
@@ -43,7 +42,13 @@ body {
 	opacity: .5;
 }
 
-img:hover {
+.guestDisk:hover {
+	max-width: 12%;
+	height: auto;
+	opacity: 1;
+}
+
+.codeDisk:hover {
 	max-width: 12%;
 	height: auto;
 	opacity: 1;

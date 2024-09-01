@@ -1,20 +1,24 @@
+html, body {
+	overflow: hidden;
+}
+
 body {
+	z-index: -1;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	background-color: #2596be;
 	background-image: url("images/vaporbg.jpeg");
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center; 
+	height: 100vh;
+    width: 100vw;
+	background-position: center;
 }
 
 .banner {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 75%;
+	height: auto;
 }
 
 .codeDisk {
